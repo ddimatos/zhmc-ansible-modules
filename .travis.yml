@@ -26,12 +26,12 @@ jobs:
         - PACKAGE_LEVEL=latest
       cache: pip
 
-#    - os: linux
-#      language: python
-#      python: "3.5"
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
+    - os: linux
+      language: python
+      python: "3.5"
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
 
     - os: linux
       language: python
@@ -40,35 +40,35 @@ jobs:
         - PACKAGE_LEVEL=latest
       cache: pip
 
-#    - os: linux
-#      language: python
-#      python: "3.6"
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
+    - os: linux
+      language: python
+      python: "3.6"
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
 
-#    - os: linux
-#      language: python
-#      python: "3.6"
-#      env:
-#        - PACKAGE_LEVEL=latest
-#      cache: pip
+    - os: linux
+      language: python
+      python: "3.6"
+      env:
+        - PACKAGE_LEVEL=latest
+      cache: pip
 
-#    - os: linux
-#      dist: xenial
-#      language: python
-#      python: "3.7"
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
+    - os: linux
+      dist: xenial
+      language: python
+      python: "3.7"
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
 
-#    - os: linux
-#      dist: xenial
-#      language: python
-#      python: "3.7"
-#      env:
-#        - PACKAGE_LEVEL=latest
-#      cache: pip
+    - os: linux
+      dist: xenial
+      language: python
+      python: "3.7"
+      env:
+        - PACKAGE_LEVEL=latest
+      cache: pip
 
 #    - os: linux
 #      dist: xenial
@@ -102,17 +102,17 @@ jobs:
         - PACKAGE_LEVEL=latest
       cache: pip
 
-#    - os: linux
-#      language: python
-#      python: "pypy"  # currently Python 2.7.13, PyPy 7.1.1
-#      env:
-#        - PACKAGE_LEVEL=minimum
+    - os: linux
+      language: python
+      python: "pypy"  # currently Python 2.7.13, PyPy 7.1.1
+      env:
+        - PACKAGE_LEVEL=minimum
 
-#    - os: linux
-#      language: python
-#      python: "pypy"  # currently Python 2.7.13, PyPy 7.1.1
-#      env:
-#        - PACKAGE_LEVEL=latest
+    - os: linux
+      language: python
+      python: "pypy"  # currently Python 2.7.13, PyPy 7.1.1
+      env:
+        - PACKAGE_LEVEL=latest
 
 # Disabled for now.
 # This fails because cryptography complains about usage of OpenSSL 1.0.2;
@@ -143,29 +143,29 @@ jobs:
 #        - PYTHON=2
 #      cache: pip
 
-#    - os: osx
-#      language: generic
-#      python:
-#      env:
-#        - PACKAGE_LEVEL=latest
-#        - PYTHON=2
-#      cache: pip
+    - os: osx
+      language: generic
+      python:
+      env:
+        - PACKAGE_LEVEL=latest
+        - PYTHON=2
+      cache: pip
 
-#    - os: osx
-#      language: generic
-#      python:
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#        - PYTHON=3
-#      cache: pip
+    - os: osx
+      language: generic
+      python:
+      env:
+        - PACKAGE_LEVEL=minimum
+        - PYTHON=3
+      cache: pip
 
-#    - os: osx
-#      language: generic
-#      python:
-#      env:
-#        - PACKAGE_LEVEL=latest
-#        - PYTHON=3
-#      cache: pip
+    - os: osx
+      language: generic
+      python:
+      env:
+        - PACKAGE_LEVEL=latest
+        - PYTHON=3
+      cache: pip
 
 before_install:
   - env | sort
