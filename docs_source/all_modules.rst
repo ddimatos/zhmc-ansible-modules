@@ -8,6 +8,7 @@ All modules
 
    modules/zhmc_adapter
    modules/zhmc_cpc
+   modules/zhmc_cpc_capacity
    modules/zhmc_crypto_attachment
    modules/zhmc_hba
    modules/zhmc_nic

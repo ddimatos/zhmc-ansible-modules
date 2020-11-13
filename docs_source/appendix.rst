@@ -52,6 +52,9 @@ Bibliography
        `IBM SC27-2638, IBM Z Hardware Management Console Web Services API (Version 2.15.0) <https://www.ibm.com/support/pages/node/6019720>`_
        (covers both GA1 and GA2)
 
+   Capacity on Demand User's Guide
+       `IBM SC28-6985, IBM Z Capacity on Demand User's Guide <https://www.ibm.com/support/pages/node/6018790>`_
+
    Ansible Documentation
        `Ansible Documentation <https://docs.ansible.com/ansible/latest/index.html>`_
 
